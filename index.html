@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vakinha Online</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <header class="navegacao-main">
+      <nav class="navegacao">
+        <div class="navegacao-logo">
+          <a href="#"><img src="/img/logo.png" alt="" /></a>
+        </div>
+        <div class="navegacao-list">
+          <ul>
+            <li>
+              <a href="#"
+                >Como ajudar <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#">Descubra <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                >Como funciona <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="navegacao-links">
+          <a href="#">Buscar</a>
+          <a href="#">Minha Conta</a>
+          <button>Criar vaquinha</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="container-titulo">
+        <span>Animais/Pets</span>
+        <h1>Salve a Petúnia</h1>
+        <span>ID: 5200288</span>
+      </div>
+      <div class="container-conteudo">
+        <div class="container-conteudo-esquerda">
+          <div class="container-conteudo-img">
+            <img
+              src="https://static.vakinha.com.br/uploads/vakinha/image/5200288/1731543551.851.png?ims=700x410"
+              alt=""
+            />
+          </div>
+          <div class="container-conteudo-likes">
+            <img
+              src="https://ui-avatars.com/api/?background=094DC0&color=fff&bold=true&name=ANA+JORGE?ims=225x225"
+              alt=""
+            />
+            <span>3 corações recebidos</span>
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="container-conteudo-compartilhar">
+            <h1>compartilhe esta vaquinha</h1>
+            <div class="container-conteudo-compartilhar-grupo">
+              <div class="container-conteudo-compartilhar-grupo-inputs">
+                <input
+                  type="text"
+                  class="container-conteudo-compartilhar-input"
+                  value="https://www.vakinha.com.br/5200288"
+                />
+                <button class="container-conteudo-compartilhar-btn">
+                  Copiar
+                </button>
+              </div>
+              <div class="container-conteudo-compartilhar-icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-conteudo-direita">
+          <div>
+            <progress
+              id="file"
+              value="32"
+              max="100"
+              class="container-conteudo-direita-progresso"
+            ></progress>
+          </div>
+          <div class="container-conteudo-direita-arrecadacao">
+            <h4>Arrecadado</h4>
+            <h1>R$ 506,00</h1>
+          </div>
+          <div class="container-conteudo-direita-meta">
+            <h4>Meta</h4>
+            <h4>R$ 4.000,00</h4>
+          </div>
+          <div class="container-conteudo-direita-apoiadores">
+            <h4>Apoiadores</h4>
+            <h4>11</h4>
+          </div>
+          <div class="container-conteudo-direita-botao">
+            <button onclick="teste()">Quero ajudar</button>
+          </div>
+          <div class="container-conteudo-direita-criador">
+            <div class="container-conteudo-direita-fotinha">
+              <img
+                src="https://ui-avatars.com/api/?background=094DC0&color=fff&bold=true&name=ANA+JORGE?ims=225x225"
+                alt=""
+              />
+            </div>
+            <div class="container-conteudo-direita-txt">
+              <span>Ana Jorge</span>
+              <span>Ativo(a) no Vakinha desde novembro/2024</span>
+              <span>1 vaquinha criada</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salve a Petúnia</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navegacao-main">
+      <nav class="navegacao">
+        <div class="navegacao-logo">
+          <a href="#"><img src="/img/logo.png" alt="" /></a>
+        </div>
+        <div class="navegacao-list">
+          <ul>
+            <li>
+              <a href="#"
+                >Como ajudar <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#">Descubra <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                >Como funciona <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="navegacao-links">
+          <a href="#">Buscar</a>
+          <a href="#">Minha Conta</a>
+          <button>Criar vaquinha</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="container-link">
+        <a href="">I'm a Foreigner</a>
+        <span>Já doou no Vakinha?</span> <a href="">Clique aqui</a>
+      </div>
+      <div class="container-title">
+        <h3>Salve a Petúnia</h3>
+        <p>ID: 5200288</p>
+      </div>
+      <div class="container-inputs">
+        <div>
+          <div>
+            <label for="input-valor">Valor da contribuição</label>
+            <input type="text" id="input-valor" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="input-nome">Nome completo</label>
+            <input type="text" id="input-nome" />
+          </div>
+          <div>
+            <label for="input-cpf">CPF</label>
+            <input type="text" id="input-cpf" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" />
+          </div>
+          <div>
+            <label for="input-celular">Telefone Celular (Whatsapp)</label>
+            <input type="tel" id="input-celular" />
+          </div>
+        </div>
+        <div>
+          <form id="formulario">
+            <div>
+              <label for="">Escolha como doar</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="input-cartao"
+                value="cartao"
+                checked
+                name="toggle"
+              />
+              <label for="input-cartao">Cartão de crédito</label>
+            </div>
+            <div>
+              <input type="radio" id="input-pix" value="pix" name="toggle" />
+              <label for="input-pix">Pix</label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="cartoes">
+        <div>
+          <label for="input-numero">Número do cartão</label>
+          <input type="text" id="input-numero" />
+        </div>
+        <div>
+          <label for="input-titular">Nome do titular</label>
+          <input type="text" id="input-titular" />
+        </div>
+        <div>
+          <label for="input-validade">Validade</label>
+          <input type="text" id="input-validade" />
+        </div>
+        <div>
+          <label for="input-cvv">CVV</label>
+          <input type="text" id="input-cvv" />
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label for="">Turbinar doação por +R$ 5,00</label>
+      </div>
+      <div>
+        <span
+          >Esta vaquinha ganha destaque e você ainda ajuda o Ação Social
+          Transformadora</span
+        >
+      </div>
+      <div>
+        <div>
+          <img
+            src="https://static.vakinha.com.br/uploads/checkout_bundle/image/5/2x_SVG_CORA%C3%87%C3%83O(2).png"
+            alt=""
+            width="45px"
+          />
+          <span>3 corações</span>
+          <span>R$ 3,00</span>
+        </div>
+        <div>
+          <img
+            src="https://static.vakinha.com.br/uploads/checkout_bundle/image/53/A%C3%A7%C3%A3o_Social_Transformadora.png"
+            alt=""
+            width="45px"
+          />
+          <span>Ação Social Transformadora</span>
+          <span>R$ 2,00</span>
+        </div>
+        <div>
+          <img
+            src="https://static.vakinha.com.br/uploads/checkout_bundle/service_image/5/lucky(2).png"
+            alt=""
+            width="45px"
+          />
+          <span>+3 números da sorte</span>
+        </div>
+        <div>
+          <span>Contribuição: R$ 0,00</span>
+        </div>
+        <div>
+          <span>Total: R$ 0,00</span>
+        </div>
+        <div>
+          <input type="checkbox" id="input-atualizacoes" />
+          <label for="input-atualizacoes"
+            >Quero receber atualizações desta vaquinha e de outras
+            iniciativas.</label
+          >
+          <small
+            >Respeitamos sua privacidade, enviando apenas e-mails e WhatsApp
+            importantes.</small
+          >
+        </div>
+      </div>
+      <div>
+        <button>Contribuir</button>
+      </div>
+      <div>
+        <img
+          src="https://static.vakinha.com.br/static/v4/SELO.png?ims=115x40"
+          alt=""
+        />
+        <span
+          >Garantimos uma experiência segura para todos os nossos
+          doadores.</span
+        >
+      </div>
+      <div>
+        <span
+          >Ao clicar no botão acima você declara que é maior de 18 anos, leu e
+          está de acordo com os Termos, Taxas e Prazos
+        </span>
+        <small
+          >Informamos que o preenchimento do seu cadastro completo estará
+          disponível em seu painel pessoal na plataforma após a conclusão desta
+          doação. Importante destacar a importância da adequação do seu
+          cadastro, informando o nome social, caso o utilize
+        </small>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>
